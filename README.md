@@ -1,1 +1,1 @@
-### Data Visualization projects - work in progress
+### Data visualization projects - work in progress
