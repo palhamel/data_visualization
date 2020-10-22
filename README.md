@@ -1,5 +1,22 @@
-### Data visualization projects - work in progress
+## Data visualization projects 
+###### - work in progress
 
-#### 1. Using data in JS
-#### 2. Using API data real-time
+*  Using data source in JS
+*  Using API data source with real-time fetch
 
+
+
+#### Tech used: 
+- JavaScript
+- Chart.js
+- React
+- Lottie
+- Postman
+- VS Code
+- Chrome
+
+
+## View it live
+https://display-data.netlify.app/
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/27cc9b46-12bc-4a6e-af38-5d609d8f681c/deploy-status)](https://app.netlify.com/sites/display-data/deploys)
