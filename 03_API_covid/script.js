@@ -56,9 +56,10 @@ xhttp.onreadystatechange = function() {
     // Map json labels  back to values array
     // console.log('response is:', this.response);  
     var labels = json.map(function (e) {
-      return e.last_update;
+      // console.log(e);
+      return e.last_update.slice(0, 10);
     });
-    console.log('labels:', labels);
+    console.log('dates:', labels);
 
     // Map json values back to values array
     var values = json.map(function (e) {
@@ -71,6 +72,5 @@ BuildChart(labels.reverse(), values.reverse(), "Total cases in Sweden");
   }
 };
 xhttp.open("GET", "https://covid19-api.org/api/timeline/SE", false);
-// xhttp.open("GET", "https://forbes400.herokuapp.com/api/forbes400?limit=10", false);
 xhttp.send();
 
