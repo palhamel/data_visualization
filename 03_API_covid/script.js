@@ -4,8 +4,9 @@ function BuildChart(labels, values, chartTitle) {
     datasets: [{
       label: chartTitle, // Name the series
       data: values,
-      fill: false,
-      backgroundColor: '#E84A5F',
+      fill: true,
+      borderColor: "#E84A5F",
+      backgroundColor: '#FCF5DE',
     //   backgroundColor: ['#99B898',
     //   '#F8B195',
     //   '#F67280',
@@ -32,13 +33,13 @@ console.log('data prop:', data);
               xAxes: [{
                       scaleLabel: {
                       display: true,
-                      labelString: 'TID'
+                      labelString: 'DATE'
                   }
               }],
               yAxes: [{
                   scaleLabel: {
                       display: true,
-                      labelString: 'ANTAL'
+                      labelString: 'CASES'
                   }
               }]
           },
